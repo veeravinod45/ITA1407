@@ -1,0 +1,5 @@
+ls
+touch example2.txt
+ls
+rm example.txt
+ls
