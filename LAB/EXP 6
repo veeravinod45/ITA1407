@@ -1,0 +1,5 @@
+touch samplefile.txt
+ls
+pwd
+wget https://example.com
+ls
