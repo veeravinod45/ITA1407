@@ -1,0 +1,6 @@
+free
+free -h
+nano names.txt
+cat names.txt
+sort names.txt
+history
