@@ -1,0 +1,5 @@
+ls
+nano sample.txt
+cat sample.txt
+mkdir LabFolder 
+ls
