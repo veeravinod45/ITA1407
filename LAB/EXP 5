@@ -1,0 +1,5 @@
+uptime
+date
+nano file1.txt
+mv file1.txt file2.txt
+ls
