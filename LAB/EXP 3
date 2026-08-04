@@ -1,0 +1,7 @@
+tree
+nano sample.txt
+cat sample.txt
+head sample.txt
+head -5 sample.txt
+tail sample.txt
+tail -5 sample.txt
