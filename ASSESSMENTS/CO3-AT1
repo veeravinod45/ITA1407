@@ -1,0 +1,51 @@
+1. scanme.nmap.org
+
+nmap -sn scanme.nmap.org
+nmap -sS scanme.nmap.org
+nmap -sS -sV scanme.nmap.org
+sudo nmap -O scanme.nmap.org
+nmap -sC -sV scanme.nmap.org
+sudo nmap -sS -sV -O -sC scanme.nmap.org
+
+
+2. Metasploitable 2 – 192.168.56.101
+
+nmap -sn 192.168.56.101
+nmap -sS 192.168.56.101
+sudo nmap -p- -sS 192.168.56.101
+sudo nmap -p- -sS -sV 192.168.56.101
+sudo nmap -O 192.168.56.101
+sudo nmap -sC -sV 192.168.56.101
+sudo nmap -p- -sS -sV -O -sC 192.168.56.101
+
+
+3. Windows – 192.168.56.102
+
+nmap -sn 192.168.56.102
+nmap -sS 192.168.56.102
+sudo nmap -p- -sS -sV 192.168.56.102
+sudo nmap -O 192.168.56.102
+sudo nmap -sC -sV 192.168.56.102
+sudo nmap -p 135,139,445,3389,5985,5986 -sV -sC 192.168.56.102
+
+
+4. OWASP Juice Shop – 192.168.56.103
+
+nmap -sn 192.168.56.103
+nmap -sS 192.168.56.103
+sudo nmap -p- -sS 192.168.56.103
+sudo nmap -p- -sS -sV 192.168.56.103
+sudo nmap -O 192.168.56.103
+sudo nmap -sC -sV 192.168.56.103
+sudo nmap -p 80,443,3000 -sV -sC 192.168.56.103
+
+
+5. Gateway – 192.168.56.1
+
+nmap -sn 192.168.56.1
+nmap -sS 192.168.56.1
+sudo nmap -p- -sS 192.168.56.1
+sudo nmap -p- -sS -sV 192.168.56.1
+sudo nmap -O 192.168.56.1
+sudo nmap -sC -sV 192.168.56.1
+sudo nmap -p 22,23,80,161,443 -sV -sC 192.168.56.1
