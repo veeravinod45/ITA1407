@@ -1,0 +1,17 @@
+echo -n "Enter first number: "
+read a
+echo -n "Enter second number: "
+read b
+echo -n "Enter third number: "
+read c
+if [ "$a" -ge "$b" ] && [ "$a" -ge "$c" ]; then
+    biggest=$a
+elif [ "$b" -ge "$a" ] && [ "$b" -ge "$c" ]; then
+    biggest=$b
+else
+    biggest=$c
+fi
+echo "The biggest number is: $biggest"
+
+chmod +x biggest.sh
+./biggest.sh
